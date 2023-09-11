@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(85, 22, 22)
+}
+
+nav div {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(233, 76, 76);
+}
+
+nav ul li a:hover {
+
+    color: white;
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+
+
+}
+
+.leftSection .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.fa-file:before {
+    color: white;
+}
+
+.fa-github:before {
+    color: white;
+    padding: 15px;
+}
+
+.fa-linkedin:before {
+    color: white;
+}
+
+.rightSection img {
+    width: 115%;
+    margin: 30px 0;
+
+}
+
+.col {
+    color: rgb(233, 76, 76);
+}
+
+#element {
+    color: rgb(233, 76, 76);
+
+}
+
+@media screen and (max-width:820px) {
+    nav {
+        flex-direction: column;
+    }
+
+}
